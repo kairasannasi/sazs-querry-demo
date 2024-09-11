@@ -3994,7 +3994,7 @@ li:hover .team-details__info__icon {
 }
 @media (max-width: 1199px) {
   .main-header__inner {
-    padding: 20px 0;
+    padding: 0px 0;
   }
 }
 .main-header__inner::before {
@@ -4026,6 +4026,8 @@ li:hover .team-details__info__icon {
   display: flex;
   align-items: center;
   z-index: 1;
+  margin-top: -5px;
+  margin-bottom: -5px;
 }
 .main-header__nav {
   margin-right: 42px;
